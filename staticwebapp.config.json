@@ -1,0 +1,12 @@
+{
+  "mimeTypes": {
+    ".json": "text/json"
+  },
+  "navigationFallback": {
+    "rewrite": "index.html",
+    "exclude": [
+      "/static/images/*.{png,jpg,gif}",
+      "/static/css/*"
+    ]
+  }
+}
